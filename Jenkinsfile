@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/KishorKP22/flask-docker-ecr-jenkins-cicd.git'
+                git branch: 'main', url: 'https://github.com/KishorKP22/flask-docker-ecr-jenkins-cicd.git'
             }
         }
 
